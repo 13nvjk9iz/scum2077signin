@@ -8,6 +8,8 @@ def auto_func(user, psw):
     user_url = "http://2077.scumgame.cn:7998"
     signin_url = "http://2077.scumgame.cn:7998/index/user/login.html"
     qiandao_url = "http://2077.scumgame.cn:7998/index/user/qiandao"
+    transfer_url = "http://2077.scumgame.cn:7998/index/user/bring.html"
+    
     r = s.get(signin_url)
     captcha_token = re.findall(r"__token__\" value=\"(.+?)\"", r.text)[0]
     account = user
@@ -23,6 +25,15 @@ def auto_func(user, psw):
     res_qiandao = re.findall(r"<h1>(.+?)</h1>", qiandao_resp.text)[0]
     print(res_login)
     print(res_qiandao)
+    trans = s.get(transfer_url)
+    trans_token = re.findall(r"__token__\" value=\"(.+?)\"", trans.text)[0]
+    trans_data = "__token__=" + trans_token+"&tosteamid=76561198447272959&num=179"
+    trans_resp = s.post(transfer_url, trans_data, headers=headers)
+    print(re.findall(r"<h1>(.+?)</h1>", trans_resp.text)[0])
+
+	
+
+	
 username = str(sys.argv[1])
 password = str(sys.argv[2])
 print(username)
