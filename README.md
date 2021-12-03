@@ -1,4 +1,4 @@
-# scum2077 Auto Checkin
+# SCUM 2077 Auto Checkin
 
 # Scum 2077服务器在线商城 每日签到 action ![SCUM2077](https://github.com/13nvjk9iz/scum2077signin/workflows/Scum2077Checkin/badge.svg)
 
