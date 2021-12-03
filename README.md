@@ -26,7 +26,7 @@
 
 - Fork 本仓库
 - 配置 hao4k 账户信息（由于是敏感信息，所以将其配置到了仓库 `setting/secrets` 下）
-  - 找到 [.github/workflows/check-in.yml](https://github.com/13nvjk9iz/scum2077signin/blob/main/.github/workflows/check-in.yml) line 27, `env` 下的两个个 secret
+  - 找到 [.github/workflows/check-in.yml](https://github.com/13nvjk9iz/scum2077signin/blob/main/.github/workflows/check-in.yml) line 22, 23的两个 secret
     - USER
     - PWD
   - 配置到仓库的 `setting/secrets`
