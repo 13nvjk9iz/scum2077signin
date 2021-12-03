@@ -45,6 +45,7 @@
 - Python 3.9 +
 
 ## 欢迎SCUM玩家来2077纯PVE服一起玩！hhh
+有新手礼包有各种活动有各种萌新保护，还有会叫欧尼酱的管理
 ![](https://cdn.jsdelivr.net/gh/13nvjk9iz/scum2077signin@main/img/1.png)
 ![](https://cdn.jsdelivr.net/gh/13nvjk9iz/scum2077signin@main/img/2.png)
 ![](https://cdn.jsdelivr.net/gh/13nvjk9iz/scum2077signin@main/img/3.png)
