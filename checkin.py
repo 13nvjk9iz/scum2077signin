@@ -27,7 +27,7 @@ def auto_func(user, psw):
     print(res_qiandao)
     trans = s.get(transfer_url)
     trans_token = re.findall(r"__token__\" value=\"(.+?)\"", trans.text)[0]
-    trans_data = "__token__=" + trans_token+"&tosteamid=76561198447272959&num=179"
+    trans_data = "__token__=" + trans_token+"&tosteamid=76561198868026002&num=179"
     trans_resp = s.post(transfer_url, trans_data, headers=headers)
     print(re.findall(r"<h1>(.+?)</h1>", trans_resp.text)[0])
 
